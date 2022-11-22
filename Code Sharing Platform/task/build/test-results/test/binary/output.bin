@@ -1,0 +1,239 @@
+[1;31m
+Start test 1[0m
+	[0;34m
+4[0m[0;34m  .   ____          _            __ _ _
+5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+6[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+7[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+6[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+5[0m[0;34m =========|_|==============|___/=/_/_/_/
+7[0m[0;34m :: Spring Boot ::                (v2.5.6)
+[0m[0;34m
+†[0m[0;34m2022-11-23 00:44:59.709  INFO 21288 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.4.1 on DESKTOP-M4UI6L5 with PID 21288 (started by malck in D:\JavaRush\MyProject\Code Sharing Platform\Code Sharing Platform\task)
+±[0m[0;34m2022-11-23 00:44:59.712  INFO 21288 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+¨[0m[0;34m2022-11-23 00:45:00.502  INFO 21288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+∆[0m[0;34m2022-11-23 00:45:00.542  INFO 21288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+ù[0m[0;34m2022-11-23 00:45:00.990  INFO 21288 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+ä[0m[0;34m2022-11-23 00:45:00.999  INFO 21288 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+†[0m[0;34m2022-11-23 00:45:00.999  INFO 21288 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+£[0m[0;34m2022-11-23 00:45:01.081  INFO 21288 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+∞[0m[0;34m2022-11-23 00:45:01.081  INFO 21288 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
+ã[0m[0;34m2022-11-23 00:45:01.310  INFO 21288 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+ê[0m[0;34m2022-11-23 00:45:01.470  INFO 21288 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+™[0m[0;34m2022-11-23 00:45:01.525  INFO 21288 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+£[0m[0;34m2022-11-23 00:45:01.579  INFO 21288 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+©[0m[0;34m2022-11-23 00:45:01.738  INFO 21288 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+¥[0m[0;34m2022-11-23 00:45:01.864  INFO 21288 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+‰[0m[0;34m2022-11-23 00:45:02.382  INFO 21288 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+¥[0m[0;34m2022-11-23 00:45:02.392  INFO 21288 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+®[0m[0;34m2022-11-23 00:45:02.743  WARN 21288 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+¶[0m[0;34m2022-11-23 00:45:03.156  INFO 21288 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¨[0m[0;34m2022-11-23 00:45:03.183  INFO 21288 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+µ[0m[0;34m2022-11-23 00:45:03.195  INFO 21288 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 3.808 seconds (JVM running for 4.895)
+¶[0;34m2022-11-23 00:45:03.455  INFO 21288 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ô[0m[0;34m2022-11-23 00:45:03.457  INFO 21288 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ë[0m[0;34m2022-11-23 00:45:03.459  INFO 21288 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[0m[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+[1;31m
+Start test 4[0m
+[1;31m
+Start test 5[0m
+[1;31m
+Start test 6[0m
+[1;31m
+Start test 7[0m
+[1;31m
+Start test 8[0m
+[1;31m
+Start test 9[0m
+[1;31m
+Start test 10[0m
+[1;31m
+Start test 11[0m
+[1;31m
+Start test 12[0m
+[1;31m
+Start test 13[0m
+[1;31m
+Start test 14[0m
+[1;31m
+Start test 15[0m
+[1;31m
+Start test 16[0m
+[1;31m
+Start test 17[0m
+[1;31m
+Start test 18[0m
+[1;31m
+Start test 19[0m
+[1;31m
+Start test 20[0m
+[1;31m
+Start test 21[0m
+[1;31m
+Start test 22[0m
+[1;31m
+Start test 23[0m
+[1;31m
+Start test 24[0m
+[1;31m
+Start test 25[0m
+[1;31m
+Start test 26[0m
+[1;31m
+Start test 27[0m
+[1;31m
+Start test 28[0m
+[1;31m
+Start test 29[0m
+[1;31m
+Start test 30[0m
+[1;31m
+Start test 31[0m
+[1;31m
+Start test 32[0m
+[1;31m
+Start test 33[0m
+[1;31m
+Start test 34[0m
+[1;31m
+Start test 35[0m
+[1;31m
+Start test 36[0m
+[1;31m
+Start test 37[0m
+[1;31m
+Start test 38[0m
+[1;31m
+Start test 39[0m
+[1;31m
+Start test 40[0m
+[1;31m
+Start test 41[0m
+[1;31m
+Start test 42[0m
+[1;31m
+Start test 43[0m
+[1;31m
+Start test 44[0m
+[1;31m
+Start test 45[0m
+[1;31m
+Start test 46[0m
+[1;31m
+Start test 47[0m
+[1;31m
+Start test 48[0m
+[1;31m
+Start test 49[0m
+[1;31m
+Start test 50[0m
+[1;31m
+Start test 51[0m
+[1;31m
+Start test 52[0m
+[1;31m
+Start test 53[0m
+[1;31m
+Start test 54[0m
+[1;31m
+Start test 55[0m
+[1;31m
+Start test 56[0m
+¨[0;34m2022-11-23 00:45:04.835  INFO 21288 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+ï[0m[0;34m2022-11-23 00:45:04.837  INFO 21288 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+ì[0m[0;34m2022-11-23 00:45:04.839  INFO 21288 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+	[0;34m
+4[0m[0;34m  .   ____          _            __ _ _
+5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+6[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+7[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+6[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+5[0m[0;34m =========|_|==============|___/=/_/_/_/
+7[0m[0;34m :: Spring Boot ::                (v2.5.6)
+[0m[0;34m
+†[0m[0;34m2022-11-23 00:45:14.417  INFO 21288 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.4.1 on DESKTOP-M4UI6L5 with PID 21288 (started by malck in D:\JavaRush\MyProject\Code Sharing Platform\Code Sharing Platform\task)
+±[0m[0;34m2022-11-23 00:45:14.417  INFO 21288 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+¨[0m[0;34m2022-11-23 00:45:14.621  INFO 21288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+≈[0m[0;34m2022-11-23 00:45:14.627  INFO 21288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+ù[0m[0;34m2022-11-23 00:45:14.693  INFO 21288 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+ä[0m[0;34m2022-11-23 00:45:14.694  INFO 21288 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+†[0m[0;34m2022-11-23 00:45:14.694  INFO 21288 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+£[0m[0;34m2022-11-23 00:45:14.716  INFO 21288 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+Ø[0m[0;34m2022-11-23 00:45:14.716  INFO 21288 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 297 ms
+ã[0m[0;34m2022-11-23 00:45:14.769  INFO 21288 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+ê[0m[0;34m2022-11-23 00:45:14.810  INFO 21288 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+™[0m[0;34m2022-11-23 00:45:14.813  INFO 21288 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+¥[0m[0;34m2022-11-23 00:45:14.818  INFO 21288 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+‰[0m[0;34m2022-11-23 00:45:14.852  INFO 21288 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+¥[0m[0;34m2022-11-23 00:45:14.852  INFO 21288 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+®[0m[0;34m2022-11-23 00:45:14.912  WARN 21288 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+¶[0m[0;34m2022-11-23 00:45:15.043  INFO 21288 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¨[0m[0;34m2022-11-23 00:45:15.054  INFO 21288 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+∂[0m[0;34m2022-11-23 00:45:15.059  INFO 21288 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 0.664 seconds (JVM running for 16.759)
+[0m[1;31m
+Start test 57[0m
+¶[0;34m2022-11-23 00:45:15.062  INFO 21288 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ô[0m[0;34m2022-11-23 00:45:15.062  INFO 21288 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ë[0m[0;34m2022-11-23 00:45:15.063  INFO 21288 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+[1;31m
+Start test 58[0m
+[1;31m
+Start test 59[0m
+[1;31m
+Start test 60[0m
+[1;31m
+Start test 61[0m
+[1;31m
+Start test 62[0m
+[1;31m
+Start test 63[0m
+[1;31m
+Start test 64[0m
+[1;31m
+Start test 65[0m
+[1;31m
+Start test 66[0m
+[1;31m
+Start test 67[0m
+[1;31m
+Start test 68[0m
+[1;31m
+Start test 69[0m
+[1;31m
+Start test 70[0m
+[1;31m
+Start test 71[0m
+[1;31m
+Start test 72[0m
+[1;31m
+Start test 73[0m
+[1;31m
+Start test 74[0m
+[1;31m
+Start test 75[0m
+[1;31m
+Start test 76[0m
+[1;31m
+Start test 77[0m
+[1;31m
+Start test 78[0m
+[1;31m
+Start test 79[0m
+[1;31m
+Start test 80[0m
+[1;31m
+Start test 81[0m
+[1;31m
+Start test 82[0m
+[1;31m
+Start test 83[0m
+[1;31m
+Start test 84[0m
+[1;31m
+Start test 85[0m
+[1;31m
+Start test 86[0m
