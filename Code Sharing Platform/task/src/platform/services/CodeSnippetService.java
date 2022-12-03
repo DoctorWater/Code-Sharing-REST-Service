@@ -42,21 +42,8 @@ public class CodeSnippetService {
     }
 
     public List<CodeSnippet> getLatest(){
-        Comparator<CodeSnippet> comparator = (o1, o2) -> {
-            if(o1.getId()>o2.getId()){
-                return -1;
-            }
-            if(Objects.equals(o1.getId(), o2.getId())){
-                return 0;
-            }
-            return 1;
-        };
         long numberOfSnippets = 10L;
-        List<CodeSnippet> list = new ArrayList<>();
-        repository.findAll().forEach(list::add);
-        ArrayList<CodeSnippet> result = new ArrayList<>(list.stream().filter(x -> x.getId() > (list.size() - numberOfSnippets-1)).toList());
-        result.sort(comparator);
-        return result;
+        return repository.getCodeSnippetsByIdGreaterThanOrderByIdDesc(repository.count()-numberOfSnippets-1);
     }
 
     @Bean("nextSnippetId")

@@ -3,6 +3,8 @@ package platform.repositories;
 import org.springframework.data.repository.CrudRepository;
 import platform.entities.CodeSnippet;
 
-public interface CodeSnippetRepository extends CrudRepository<CodeSnippet, Long> {
+import java.util.List;
 
+public interface CodeSnippetRepository extends CrudRepository<CodeSnippet, Long> {
+    List<CodeSnippet> getCodeSnippetsByIdGreaterThanOrderByIdDesc(Long id);
 }
